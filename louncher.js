@@ -19,7 +19,7 @@ class louncher{
     }
     display(){
         if(this.louncher.bodyA){
-            strokeWeight(2)
+            strokeWeight(1)
             line(this.bodyA.position.x,this.bodyA.position.y,this.pointB.x,this.pointB.y)
         }
 
